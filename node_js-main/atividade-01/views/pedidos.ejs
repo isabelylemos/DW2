@@ -1,0 +1,25 @@
+<%- include ('partials/navbar.ejs') %>
+<%- include ('partials/header.ejs') %>
+
+  <p class="ped">Estes foram os pedidos com os maiores valores do mês! </p>
+
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Número do Pedido</th>
+        <th scope="col">Valor</th>
+        
+      </tr>
+    </thead>
+    <% listaPedidos.forEach((listaPedidos)=>{ %>
+    <tbody>
+      <tr>
+        <td><%= listaPedidos.numero %></td>
+        <td><%= listaPedidos.valor %></td>
+        
+      </tr>
+    <% }) %>
+    </tbody>
+  </table>
+  
+<%- include ('partials/footer.ejs') %>
