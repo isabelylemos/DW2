@@ -1,7 +1,8 @@
 <%- include ('partials/navbar.ejs') %>
 <%- include ('partials/header.ejs') %>
 
-  <p class="ped">Estes foram os pedidos com os maiores valores do mês! </p>
+  <p class="msg">Pedidos com os maiores valores do mês! </p>
+  <div class="linha"></div>
 
 <table class="table table-hover">
     <thead>
@@ -15,7 +16,7 @@
     <tbody>
       <tr>
         <td><%= listaPedidos.numero %></td>
-        <td><%= listaPedidos.valor %></td>
+        <td>R$ <%= listaPedidos.valor %>,00</td>
         
       </tr>
     <% }) %>
