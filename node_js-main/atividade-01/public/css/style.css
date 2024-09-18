@@ -13,7 +13,7 @@
 }
 
 .collapse{
-    margin-left: 250px;
+    margin-left: 350px;
 }
 
 .nav-item{
@@ -23,7 +23,7 @@
 a.nav-link{
     color: white;
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 90px;
     border-radius: 10px;
     border-color: rgb(155, 10, 10);
 }
@@ -58,7 +58,7 @@ a.nav-link:hover{
 }
 
 img{
-    height: 700px;
+    height: 730px;
     width: 100%;
 }
 
@@ -69,7 +69,7 @@ img{
 .tamform{
     margin-top: 70px;   
     margin-bottom: 90px;
-    margin-left: 460px;
+    margin-left: 680px;
     width: 400px;
 }
 
@@ -106,17 +106,9 @@ footer{
 
 table.table{
     width: 500px;
-    margin-left: 440px;
+    margin-left: 700px;
     margin-top: 70px;
     margin-bottom: 100px;
     border-color: black;
 }
 
-/*.linha{
-    background-color: rgb(155, 10, 10);
-    width: 380px;
-    height: 7px;
-    margin-left: 48px;
-    margin-top: -5px;
-    border-radius: 5px;
-}*/
