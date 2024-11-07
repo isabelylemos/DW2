@@ -1,8 +1,9 @@
 import express from "express";
+import Auth from "../middleware/Auth.js"
 const router =express.Router(); 
 
 // rota produtos
-router.get("/produtos", (req, res) => {
+router.get("/produtos",Auth, (req, res) => {
     const listaProdutos = [
       { nome: "Pizza de Quatro Queijos", preco: 50, categoria: "Grande" },
       { nome: "Pizza de Calabresa", preco: 35, categoria: "Pequena" },

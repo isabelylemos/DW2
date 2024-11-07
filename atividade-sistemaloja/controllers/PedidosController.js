@@ -1,8 +1,9 @@
 import express from "express";
+import Auth from "../middleware/Auth.js"
 const router = express.Router();
 
 // rota pedidos
-router.get("/pedidos", (req, res) => {
+router.get("/pedidos",Auth, (req, res) => {
   
     const listaPedidos = [
       {numero: 21, valor: 344},
