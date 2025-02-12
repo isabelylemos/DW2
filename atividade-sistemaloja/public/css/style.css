@@ -143,9 +143,11 @@ table.table{
 }
 
 
-
 a{
     text-decoration: none;
     color:green ;
 }
 
+img {
+    margin-top: 60px;
+}
